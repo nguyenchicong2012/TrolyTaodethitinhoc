@@ -1,0 +1,6 @@
+body {font-family: Segoe UI, sans-serif;background: #eef2f7;margin: 0;padding: 0;}
+.app-header {background: #0059b3;color: white;padding: 20px 40px;box-shadow: 0 2px 5px rgba(0,0,0,0.2);}
+.container {margin: 30px auto;max-width: 700px;background: white;padding: 30px;border-radius: 12px;box-shadow: 0 5px 15px rgba(0,0,0,0.1);}
+.card {display: flex;flex-direction: column;gap: 12px;}
+button {padding: 12px;background:#0066cc;border:none;color:white;border-radius:6px;font-size:16px;}
+.app-footer {margin-top:40px;background:#003d73;padding:15px;color:white;text-align:center;font-size:14px;}
