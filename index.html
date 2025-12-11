@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trình tạo đề Tin học Tiểu học – CT 2018</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="app-header">
+    <div class="author-info">
+        <h2>Trình tạo đề kiểm tra Tin học – CT 2018</h2>
+        <p>Tác giả: <b>Nguyễn Chí Công</b> | 📞 <b>09xx.xxx.xxx</b></p>
+    </div>
+</header>
+
+<main class="container">
+    <h3>Tạo đề kiểm tra tự động theo TT27 – Môn Tin học</h3>
+
+    <div class="card">
+        <label for="grade">Chọn khối lớp:</label>
+        <select id="grade">
+            <option value="3">Lớp 3</option>
+            <option value="4">Lớp 4</option>
+            <option value="5">Lớp 5</option>
+        </select>
+
+        <label for="exam-type">Loại đề:</label>
+        <select id="exam-type">
+            <option value="hk1">Kiểm tra cuối kì I</option>
+            <option value="hk2">Kiểm tra cuối năm</option>
+        </select>
+
+        <label for="num-questions">Số câu hỏi:</label>
+        <input type="number" id="num-questions" min="10" max="40" value="20">
+
+        <button onclick="generateAllDocs()">Tạo 3 mã đề (A, B, C)</button>
+    </div>
+
+    <div id="download-links"></div>
+</main>
+
+<footer class="app-footer">
+    <p>© 2025 – Thiết kế bởi <b>Nguyễn Chí Công</b>. Liên hệ hỗ trợ: <b>09xx.xxx.xxx</b></p>
+</footer>
+
+<script src="generate-docx.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

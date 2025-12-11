@@ -1,0 +1,1 @@
+function generateAllDocs(){alert('Tính năng sinh DOCX sẽ được tích hợp.');}
